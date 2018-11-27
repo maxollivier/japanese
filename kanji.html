@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<h1 class="center">コーヒー</h1>
+	<h2 class="center">Score: <b id="scoreC"></b> | <b id="scoreI"></b></h2>
+	<script src="scripts/adjectives.js"></script>
+	<script src="scripts/rand.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="rand()">
+	<!-- <p>Click the button to translate.</p>
+	<button id="button" onclick="rand(kanji)">Generate</button> -->
+	<p style="font-size:150%" id="instPt1" class="center"></p>
+	<p style="font-size:200%" class="center" id="word"></p>
+	<p style="font-size:150%" id="instPt2" class="center"></p>
+	<p class="centerinput"><input align="middle" type="text" id="input" autofocus><button id="submit" onclick="document.getElementById('input').value = ''; rand()">Submit</button></p>
+<body>
